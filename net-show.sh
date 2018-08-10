@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -s  http://"${1}"/login.cgi --data password=5partan5 --cookie-jar /etc/ansible/expect-scripts/scratch/netgearcookie$1  >/dev/null
+curl -s  http://"${1}"/login.cgi --data password=password --cookie-jar /etc/ansible/expect-scripts/scratch/netgearcookie$1  >/dev/null
 
 hash="$(curl -s --cookie /etc/ansible/expect-scripts/scratch/netgearcookie$1 http://"${1}"/switch_info.cgi | grep hash | grep -o '[0-9]*')"
 
