@@ -1,13 +1,11 @@
 #!/bin/bash
 
-#-----------------------------------------------------------#
-#         Author: 	    Ankit Vora    		    #
-#					                    #
-#         Date:		    5/31/2018   	            #
-#         Version:	    0.4                             #
-#         Notes:            One Click provisioning	    #
-#                           Solution for NetGear GS105PE    #
-#-----------------------------------------------------------#
+#         Author:		Ankit Vora    		                          
+#         Date:			5/31/2018         
+#         Version:		0.4                          
+#         Notes:            One Click provisioning	 
+#                           Solution for NetGear GS105PE 
+
 
 
 read -p "Enter temp ip of the switch:  " temp
